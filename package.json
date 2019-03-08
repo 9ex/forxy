@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/9ex/forxy/issues"
   },
-  "homepage": "https://github.com/9ex/forxy#readme"
+  "homepage": "https://github.com/9ex/forxy#readme",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
 }

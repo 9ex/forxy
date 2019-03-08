@@ -1,0 +1,22 @@
+{
+  "name": "forxy",
+  "version": "0.1.0",
+  "description": "FORward proXY",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9ex/forxy.git"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "rexzheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/9ex/forxy/issues"
+  },
+  "homepage": "https://github.com/9ex/forxy#readme"
+}

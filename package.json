@@ -20,6 +20,31 @@
   },
   "homepage": "https://github.com/9ex/forxy#readme",
   "dependencies": {
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "socks": "^2.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.0.0",
+    "pre-commit": "^1.2.2"
+  },
+  "jest": {
+    "testMatch": [
+      "**/test/*.js"
+    ],
+    "bail": true,
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "**/src/*.js"
+    ],
+    "coverageReporters": [
+      "text-summary",
+      "lcov"
+    ]
   }
 }

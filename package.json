@@ -4,7 +4,7 @@
   "description": "FORward proXY",
   "main": "index.js",
   "bin": {
-    "forxy": "./bin"
+    "forxy": "./bin/forxy"
   },
   "scripts": {
     "test": "jest",

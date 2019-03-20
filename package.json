@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "FORward proXY",
   "main": "index.js",
+  "bin": {
+    "forxy": "./bin"
+  },
   "scripts": {
     "test": "jest",
     "lint": "eslint . --ext .js"
